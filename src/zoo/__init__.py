@@ -1,1 +1,1 @@
-from .showcase import showcase
+from .showcase import showcase  # noqa: F401
