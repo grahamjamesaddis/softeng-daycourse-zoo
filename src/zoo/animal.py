@@ -1,7 +1,7 @@
 class Animal:
     def __init__(self, name, species):
-        self.name = type(self).__name__
-        self.species = species
+        self.name = name
+        self.species = type(self).__name__
 
     def sound(self):
         raise NotImplementedError("Each animal must define its own sound.")
