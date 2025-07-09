@@ -1,6 +1,6 @@
 class Animal:
     def __init__(self, name, species):
-        self.name = self.__name__
+        self.name = type(self).__name__
         self.species = species
 
     def sound(self):
